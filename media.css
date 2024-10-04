@@ -1,0 +1,159 @@
+@media (max-width: 430px) {
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+
+  nav {
+    padding: 15px 20px;
+    flex-direction: column;
+
+    gap: 10px;
+  }
+  
+  .na {
+    gap: 10px;
+  }
+
+  .container {
+    padding: 20px;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .container .text h1 {
+    font-size: 200px;
+    font-weight: 200;
+    text-align: left;
+  }
+
+  .container .text p {
+    font-size: 16px;
+  }
+
+  .container .text button {
+    width: 100px;
+    height: 40px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    background-color: crimson;
+    flex-direction: column;
+  }
+
+  .image {
+    min-width: 300px;
+
+    flex-wrap: wrap;
+
+    margin-left: 110px;
+    padding: 10%;
+  }
+  .image > img {
+    width: 190px;
+  }
+  .section1 {
+    margin-top: 500px;
+  }
+
+  .modal {
+    width: 100%;
+    margin-top: 70px;
+    height: auto;
+    transform: translateX(0);
+    top: 0;
+  }
+
+  .modal_card {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .modal_card > img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .basketIcon > img {
+    width: 60px;
+  }
+
+  .basketIcon > p {
+    font-size: 18px;
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* --------------------------------- */
+  footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Reduce padding */
+    background-color: #454545; /* Dark background */
+  }
+
+  footer .container {
+    width: 100%; /* Take full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Reduced gap for smaller screens */
+    padding: 20px;
+  }
+
+  footer .container .first,
+  footer .container .second,
+  footer .container .third {
+    width: 100%; /* Ensure sections take full width */
+    text-align: center; /* Center all text */
+    padding: 10px 0;
+  }
+
+  footer .container .first h1,
+  footer .container .second h1,
+  footer .container .third h1 {
+    font-size: 16px; /* Reduce font size for headings */
+    color: white;
+  }
+
+  footer .container .first a,
+  footer .container .second a,
+  footer .container .third a {
+    display: block; /* Stack links */
+    color: #d9d9d9;
+    font-size: 14px; /* Smaller font for links */
+    padding: 5px 0; /* Add padding to links */
+  }
+
+  footer .container .tex {
+    text-align: center;
+    padding-bottom: 10px; /* Add some spacing below text */
+  }
+
+  footer .container .tex h1 {
+    font-size: 18px; /* Reduced font size */
+    color: white;
+  }
+
+  footer .container .tex span {
+    color: #ff8f52;
+    display: block;
+    margin-top: 5px;
+  }
+
+  footer .container .tex p {
+    color: #d9d9d9;
+    font-size: 14px; /* Reduce font size */
+    margin-top: 5px;
+  }
+}

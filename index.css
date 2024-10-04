@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  max-width: 1400px;
+  width: 100%;
+
+  position: relative;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+  align-items: center;
+}
+.mini {
+  position: absolute;
+  right: 65px;
+  top: 12px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  background-color: red;
+  color: #fff;
+}
+nav span {
+  color: #ff8f52;
+}
+nav .na {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav .na span a {
+  color: #ff8f52;
+}
+nav .na a {
+  color: black;
+}
+nav .svg img {
+  width: 25.26px;
+  height: 29px;
+  color: #ff8f52;
+}
+
+/* ----------------container text---------------- */
+
+.container {
+  background-color: #eee;
+  height: 100vh;
+  padding: 50px 70px;
+  display: flex;
+  width: 100%;
+  gap: 100px;
+}
+.container .text h1 {
+  font-size: 55px;
+  font-weight: 700;
+  text-align: left;
+}
+.container .text p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  text-align: left;
+  color: gray;
+}
+.container .text button {
+  margin-top: 30px;
+  width: 80px;
+  height: 31px;
+  border-radius: 6px;
+  background-color: #ff8f52;
+  border: none;
+  color: white;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 296px;
+  gap: 10px;
+  padding-left: 100px;
+}
+/* .container .image{
+    
+} */
+/* js image */
+
+.section1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #eee;
+  padding: 50px 70px;
+  justify-content: center;
+  gap: 20px;
+}
+.images {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  width: 287px;
+  height: 336px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+  padding: 20px;
+}
+.images p {
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+.images .dev {
+  display: flex;
+  gap: 130px;
+}
+.images .dev span {
+  margin-top: 20px;
+
+  color: #838383;
+}
+.images .dev button {
+  height: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #ff8f52;
+  border: none;
+  font-size: 18px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container .tex h1 {
+  color: white;
+  font-size: 30px;
+}
+footer .container .tex span {
+  color: #ff8f52;
+}
+
+footer .container .tex p {
+  margin-top: 14px;
+  color: #d9d9d9;
+}
+footer .container {
+  background-color: #454545;
+  height: 250px;
+  justify-content: center;
+  gap: 150px;
+}
+footer .container .first h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+footer .container .first a {
+  padding-top: 10px;
+  margin-top: 5px;
+  display: flex;
+  color: #d9d9d9;
+}
+
+footer .container .second h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+footer .container .second a {
+  padding-top: 10px;
+  margin-top: 5px;
+  display: flex;
+  color: #d9d9d9;
+}
+
+footer .container .third h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+}
+footer .container .third a {
+  padding-top: 25px;
+  margin-top: 5px;
+  display: flex;
+  color: #d9d9d9;
+}
+
+/* modal  */
+
+.modal {
+  width: 330px;
+  height: 400px;
+  background-color: rebeccapurple;
+
+  position: absolute;
+  right: 0;
+  top: 70px;
+
+  transform: translateX(300px);
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+/* get modal */
+.modal_card {
+  width: 99%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.modal_card > img {
+  width: 50px;
+  height: 50px;
+}
+.modal_card .dable button {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+.modal_card .dable {
+  border: 2px gray solid;
+  padding: 5px 10px;
+  gap: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basketIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50%;
+}
+.basketIcon > img {
+  width: 50px;
+}
+.basketIcon > p {
+  color: #fff;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tostify {
+  width: 300px;
+  height: 50px;
+  background-color:red;
+  position: fixed;
+  top: 200px;
+  left: 40%;
+  z-index: -1;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+}
